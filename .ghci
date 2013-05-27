@@ -1,0 +1,5 @@
+:l site.hs
+:m + Main
+:set prompt "ride>> "
+:set -Wall
+:set -fno-warn-unused-do-bind

@@ -1,0 +1,15 @@
+<entry>
+  <title>$title$</title>
+  <link rel="alternate" href="http://ride.tmorris.net$url$"/>
+  <id>http://ride.tmorris.net$url$</id>
+  <published>$published$</published>
+  <updated>$updated$</updated>
+  <author>
+    <name>$author$</name>
+  </author>
+  <content type="xhtml" xml:base="http://ride.tmorris.net/posts/">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      $feedcontent$
+    </div>
+  </content>
+</entry>

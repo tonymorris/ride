@@ -1,0 +1,8 @@
+_cache/
+_site/
+site
+*.hi
+*.o
+.idea/ant.xml
+.idea/workspace.xml
+
