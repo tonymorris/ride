@@ -4,6 +4,6 @@ title: Contact
 
 # Contact
 
-I can be contacted at [blog@tmorris.net](mailto:blog@tmorris.net) or on the [freenode] IRC network with the username `dibblego`.
+This group can be contacted at [au-ride-2014@googlegroups.com](au-ride-2014@googlegroups.com).
 
 [freenode]: http://freenode.net/
