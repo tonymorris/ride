@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx
-  version="1.0"
+  version="1.1"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns="http://www.topografix.com/GPX/1/0"
-  xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+  creator="Tony Morris">
 
 <metadata>
   <name>Trans-Australia Ride of 2014</name>
@@ -36,7 +37,7 @@
 <rte>
   <name>Trans-Australia Ride of 2014</name>
   <extensions>
-    <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+    <gpxx:RouteExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
       <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
       <gpxx:DisplayColor>Magenta</gpxx:DisplayColor>
     </gpxx:RouteExtension>
@@ -49,7 +50,7 @@
     <desc>12-FEB-13 14:00:00</desc>
     <sym>City (Small)</sym>
     <extensions>
-      <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+      <gpxx:RoutePointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd">
         <gpxx:Subclass>000000000000ffffffffffffffffffffffff</gpxx:Subclass>
       </gpxx:RoutePointExtension>
     </extensions>
