@@ -99,8 +99,8 @@ brisbaneToPerth ::
   Route
 brisbaneToPerth =  
   [
-    -27.688460 |. 153.183840
-  , -31.944690 |. 115.823720
+    brisbaneBegin
+  , subiaco
   ] @.
   (Z5, lambert)
     
@@ -108,11 +108,15 @@ strzelecki ::
   Route  
 strzelecki =
   [
-    -27.688460 |. 153.183840
+    brisbaneBegin
   , charleville
   , cordilloRoadNorth
   , innamincka
-  , -31.944690 |. 115.823720
+  , boreTrackNorth
+  , boreTrackMiddle
+  , boreTrackSouth
+  , blinman
+  , subiaco
   ] @.
   (Z5, lambert)
 
@@ -135,6 +139,16 @@ lambert ::
 lambert =
   -25.610111 |. 134.354806
 
+brisbaneBegin ::
+  Coord
+brisbaneBegin =
+  -27.688460 |. 153.183840
+
+subiaco ::
+  Coord
+subiaco =
+  -31.944690 |. 115.823720
+
 charleville ::
   Coord
 charleville =
@@ -148,9 +162,45 @@ cordilloRoadNorth =
 innamincka ::
   Coord
 innamincka =
-  -27.707581 |. 140.739217
+  -27.747408 |. 140.736025
 
 birdsville ::
   Coord
 birdsville =
   -25.897179 |. 139.355546
+
+blinman :: -- Flinders Ranges
+  Coord 
+blinman =
+  -31.09548 |. 138.678807
+
+boreTrackNorth ::
+  Coord
+boreTrackNorth =
+  -27.756629 |. 140.900438
+
+boreTrackMiddle ::
+  Coord
+boreTrackMiddle =
+  -27.82124 |. 140.854602
+
+boreTrackSouth ::
+  Coord
+boreTrackSouth =
+  -28.130879 |. 140.911875
+
+birdsvilleTrackNorth ::
+  Coord
+birdsvilleTrackNorth =
+  -25.918503 |. 139.378758
+
+birdsvilleInsideTrackNorth ::
+  Coord
+birdsvilleInsideTrackNorth =
+  -25.911752 |. 139.333197
+
+birdsvilleInsideTrackSouth ::
+  Coord
+birdsvilleInsideTrackSouth =
+  -26.998051 |. 139.024969
+  
