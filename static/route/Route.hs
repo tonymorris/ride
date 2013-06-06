@@ -113,7 +113,7 @@ strzelecki =
   , cordilloRoadNorth
   , innamincka
   , boreTrackNorth
-  , boreTrackMiddle
+  --, boreTrackMiddle
   , boreTrackSouth
   , blinman
   , subiaco
@@ -203,4 +203,53 @@ birdsvilleInsideTrackSouth ::
   Coord
 birdsvilleInsideTrackSouth =
   -26.998051 |. 139.024969
-  
+
+warakurna ::
+  Coord
+warakurna =
+  -25.053280 |. 128.299351
+
+warburton ::
+  Coord
+warburton =
+  -26.133004 |. 126.58064
+
+tjukayirla ::
+  Coord
+tjukayirla =
+  -27.153786 |. 124.573898
+
+erldunda ::
+  Coord
+erldunda =
+  -25.198952 |. 133.201952
+
+cosmoNewberry ::
+  Coord
+cosmoNewberry =
+  -27.994930 |. 122.89516
+
+laverton ::
+  Coord
+laverton =
+  -28.6266277 |. 122.403518
+
+dockerRiver ::
+  Coord
+dockerRiver =
+  -24.8687942 |. 129.095428
+
+oldGunbarrelNorth ::
+  Coord
+oldGunbarrelNorth =
+  -25.707433 |. 126.664721
+
+oldGunbarrelSouth ::
+  Coord
+oldGunbarrelSouth =
+  -25.971631 |. 126.800923
+
+greatCentralRoad ::
+  [Coord]
+greatCentralRoad =
+  [dockerRiver, laverton]
