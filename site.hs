@@ -64,6 +64,7 @@ post =
        >>> arr (copyBodyToField "feedcontent")
        >>> renderTagsField "prettytags" (fromCapture "tags/*")
        >>> applyTemplateCompiler "templates/post.html"
+       >>> applyTemplateCompiler "templates/disqus.html"
        >>> arr checkMathOption
        >>> applyTemplateCompiler "templates/default.html"
        >>> relativizeUrlsCompiler
