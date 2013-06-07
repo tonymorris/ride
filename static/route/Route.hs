@@ -95,15 +95,6 @@ Route c z ~> Config uri loc zoom centre =
       z' = maybe [] (\(zz, Coord lat lon) -> concat ["&", zoom, "=", show zz, "&", centre, "=", show lat, ",", show lon]) z      
   in concat [uri, "?", locs, z']
 
-brisbaneToPerth ::
-  Route
-brisbaneToPerth =  
-  [
-    brisbaneBegin
-  , subiaco
-  ] @.
-  (Z5, lambert)
-    
 strzelecki ::
   Route  
 strzelecki =
@@ -112,6 +103,7 @@ strzelecki =
   , charleville
   , cordilloRoadNorth
   , innamincka
+  , boreTrackNorth
   , blinman
   , norseman
   , esperance
@@ -136,7 +128,6 @@ darwinRoute =
   , dalhousie
   , oodnadatta
   , aliceSprings
-  -- , hallsCreek
   , jabiru
   , darwin
   , mcarthur
@@ -152,9 +143,8 @@ routes ::
   [(Route, String)]
 routes =
   [
-    (brisbaneToPerth, "Brisbane to Perth")
-  , (strzelecki     , "Brisbane, Charleville, Strzelecki Track, Innamincka, Flinders Ranges, Port Augusta, Nullabor, Eucla, Norseman, Esperance, Ravensthorpe, Hyden (Wave Rock), Kondinin, Wickepin, Bunburry, Busselton")
-  , (darwinRoute    , "Brisbane, Birdsville, Alice Springs, Darwin, Townsville, Brisbane")
+    (strzelecki     , "Brisbane, Charleville, Strzelecki Track, Innamincka, Flinders Ranges, Port Augusta, Nullabor, Eucla, Norseman, Esperance, Ravensthorpe, Hyden (Wave Rock), Kondinin, Wickepin, Bunburry, Busselton")
+  , (darwinRoute    , "Brisbane, Birdsville, Purni Bore, Oodnadatta, Alice Springs, Jabiru, Darwin, McArthur, Cairns, Townsville, Hervey Bay, Brisbane")
   ]
 
 main ::
@@ -387,4 +377,3 @@ greatCentralRoad ::
   [Coord]
 greatCentralRoad =
   [dockerRiver, laverton]
-
