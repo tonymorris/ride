@@ -112,11 +112,27 @@ strzelecki =
   , charleville
   , cordilloRoadNorth
   , innamincka
-  , boreTrackNorth
-  --, boreTrackMiddle
-  , boreTrackSouth
   , blinman
-  , subiaco
+  , norseman
+  , esperance
+  , ravensthorpe
+  , hyden
+  , kondinin
+  , wickepin
+  , bunburry
+  , busselton
+  ] @.
+  (Z5, lambert)
+
+gunbarrel ::
+  Route
+gunbarrel =
+  [
+    brisbaneBegin
+  , charleville
+  , birdsville
+  , warakurna
+  , warburton
   ] @.
   (Z5, lambert)
 
@@ -125,7 +141,8 @@ routes ::
 routes =
   [
     (brisbaneToPerth, "Brisbane to Perth")
-  , (strzelecki     , "Strzelecki")
+  , (strzelecki     , "Brisbane, Charleville, Strzelecki Track, Innamincka, Flinders Ranges, Port Augusta, Nullabor, Eucla, Norseman, Esperance, Ravensthorpe, Hyden (Wave Rock), Kondinin, Wickepin, Bunburry, Busselton")
+  , (gunbarrel      , "Gunbarrel")
   ]
 
 main ::
@@ -248,6 +265,46 @@ oldGunbarrelSouth ::
   Coord
 oldGunbarrelSouth =
   -25.971631 |. 126.800923
+
+norseman ::
+  Coord
+norseman =
+  -32.185311 |. 121.778508
+
+esperance ::
+  Coord
+esperance =
+  -33.832102 |. 121.896204
+
+ravensthorpe ::
+  Coord
+ravensthorpe =
+  -33.576084 |. 120.012066
+
+hyden ::
+  Coord
+hyden =
+  -32.450172 |. 118.86318
+
+kondinin ::
+  Coord
+kondinin =
+  -32.499175 |. 118.264772
+
+wickepin ::
+  Coord
+wickepin =
+  -32.78161 |. 117.496412
+
+bunburry ::
+  Coord
+bunburry =
+  -33.350606 |. 115.696242
+
+busselton ::
+  Coord
+busselton =
+  -33.663639 |. 115.359178
 
 greatCentralRoad ::
   [Coord]
