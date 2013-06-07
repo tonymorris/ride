@@ -124,18 +124,6 @@ strzelecki =
   ] @.
   (Z5, lambert)
 
-gunbarrel ::
-  Route
-gunbarrel =
-  [
-    brisbaneBegin
-  , charleville
-  , birdsville
-  , warakurna
-  , warburton
-  ] @.
-  (Z5, lambert)
-
 darwinRoute ::
   Route
 darwinRoute =
@@ -148,10 +136,14 @@ darwinRoute =
   , dalhousie
   , oodnadatta
   , aliceSprings
-  , hallsCreek
+  -- , hallsCreek
   , jabiru
   , darwin
+  , mcarthur
+  , fortyMileScrub
+  , cairns
   , townsville
+  , herveyBay
   , brisbaneBegin
   ] @.
   (Z5, lambert)
@@ -371,7 +363,28 @@ townsville ::
 townsville =
   -19.257653 |. 146.817809
 
+mcarthur ::
+  Coord
+mcarthur =
+  -16.682342 |. 135.727454
+
+cairns ::
+  Coord
+cairns =
+  -16.920154 |. 145.771015
+
+herveyBay ::
+  Coord
+herveyBay =
+  -25.289521 |. 152.830889
+
+fortyMileScrub ::
+  Coord
+fortyMileScrub =
+  -18.10837 |. 144.826121
+
 greatCentralRoad ::
   [Coord]
 greatCentralRoad =
   [dockerRiver, laverton]
+
