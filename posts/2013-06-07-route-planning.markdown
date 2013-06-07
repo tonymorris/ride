@@ -4,7 +4,7 @@ date: 2013-06-07 20:00:00
 layout: post
 slug: test
 title: Route Planning
-tags: Route Planning
+tags: Route Planning, Route Proposal
 ---
 
 In [the repository](https://bitbucket.org/dibblego/ride), you will find [a Haskell script](https://bitbucket.org/dibblego/ride/src/master/static/route/Route.hs) for generating a URL containing waypoints. The URL points to
