@@ -11,7 +11,7 @@ tags: Route Planning, Route Proposal
 
 [View this route on the Open Source Routing Machine](http://osrm.at/3vR).
 
-![Brisbane to Busselton (5517km)](/images/routes/route-1.png "Brisbane to Busselton (5517km)")
+[![Brisbane to Busselton (5517km)](/images/routes/route-1.png "Brisbane to Busselton (5517km)")](http://osrm.at/3vR)
 
 * Brisbane
 * Charleville
