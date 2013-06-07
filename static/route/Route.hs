@@ -136,13 +136,33 @@ gunbarrel =
   ] @.
   (Z5, lambert)
 
+darwinRoute ::
+  Route
+darwinRoute =
+  [
+    brisbaneBegin
+  , charleville
+  , birdsville
+  , poepellCorner
+  , purniBore
+  , dalhousie
+  , oodnadatta
+  , aliceSprings
+  , hallsCreek
+  , jabiru
+  , darwin
+  , townsville
+  , brisbaneBegin
+  ] @.
+  (Z5, lambert)
+
 routes ::
   [(Route, String)]
 routes =
   [
     (brisbaneToPerth, "Brisbane to Perth")
   , (strzelecki     , "Brisbane, Charleville, Strzelecki Track, Innamincka, Flinders Ranges, Port Augusta, Nullabor, Eucla, Norseman, Esperance, Ravensthorpe, Hyden (Wave Rock), Kondinin, Wickepin, Bunburry, Busselton")
-  , (gunbarrel      , "Gunbarrel")
+  , (darwinRoute    , "Brisbane, Birdsville, Alice Springs, Darwin, Townsville, Brisbane")
   ]
 
 main ::
@@ -305,6 +325,51 @@ busselton ::
   Coord
 busselton =
   -33.663639 |. 115.359178
+
+poepellCorner ::
+  Coord
+poepellCorner =
+  -26.004933 |. 137.991865
+
+purniBore ::
+  Coord
+purniBore =
+  -26.284170 |. 136.098330
+
+dalhousie ::
+  Coord
+dalhousie =
+  -26.423608 |. 135.502891
+
+oodnadatta ::
+  Coord
+oodnadatta =
+  -27.548276 |. 135.448427
+
+aliceSprings ::
+  Coord
+aliceSprings =
+  -23.700651 |. 133.876855
+
+hallsCreek ::
+  Coord
+hallsCreek =
+  -18.222707 |. 127.670181
+
+jabiru ::
+  Coord
+jabiru =
+  -12.654073 |. 132.82907
+
+darwin ::
+  Coord
+darwin =
+  -12.462852 |. 130.841843
+
+townsville ::
+  Coord
+townsville =
+  -19.257653 |. 146.817809
 
 greatCentralRoad ::
   [Coord]
