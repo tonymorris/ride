@@ -14,14 +14,16 @@ tags: Route Planning, Route Proposal
 [![Brisbane to Busselton (5517km)](/images/routes/route-1.png "Brisbane to Busselton (5517km)")](http://osrm.at/3vR)
 
 * Brisbane
-* Birdsville
-* Purni Bore
-* Oodnadatta
-* Alice Springs
-* Jabiru
-* Darwin
-* McArthur
-* Cairns
-* Townsville
-* Hervey Bay
-* Brisbane
+* Charleville
+* Strzelecki Track
+* Flinders Ranges
+* Port Augusta
+* Nullabor
+* Eucla
+* Norseman
+* Esperance
+* Ravensthorpe
+* Wave Rock
+* Kondinin
+* Bunburry
+* Busselton
