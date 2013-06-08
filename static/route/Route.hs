@@ -111,7 +111,7 @@ strzeleckiRoute =
     , aliceSprings
     , jabiru
     ]
-  , darwin2Brisbane
+  , darwin2BrisbaneViaCairns
   ] @.
   (Z5, lambert)
 
@@ -131,7 +131,7 @@ darwinRoute =
     , aliceSprings
     , jabiru
     ]
-  , darwin2Brisbane
+  , darwin2BrisbaneViaCairns
   ] @.
   (Z5, lambert)
 
@@ -374,9 +374,9 @@ greatCentralRoad ::
 greatCentralRoad =
   [dockerRiver, laverton]
 
-darwin2Brisbane ::
+darwin2BrisbaneViaCairns ::
   [Coord]
-darwin2Brisbane =
+darwin2BrisbaneViaCairns =
   [
     darwin
   , mcarthur
