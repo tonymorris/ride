@@ -95,9 +95,9 @@ Route c z ~> Config uri loc zoom centre =
       z' = maybe [] (\(zz, Coord lat lon) -> concat ["&", zoom, "=", show zz, "&", centre, "=", show lat, ",", show lon]) z      
   in concat [uri, "?", locs, z']
 
-strzeleckiRoute ::
+boreTrackRoute ::
   Route  
-strzeleckiRoute =
+boreTrackRoute =
   concat
   [
     [
@@ -109,9 +109,8 @@ strzeleckiRoute =
     , boreTrackSouth
     , oodnadatta
     , aliceSprings
-    , jabiru
     ]
-  , darwin2BrisbaneViaCairns
+  , darwin2BrisbaneViaRockhampton
   ] @.
   (Z5, lambert)
 
@@ -129,7 +128,6 @@ darwinRoute =
     , dalhousie
     , oodnadatta
     , aliceSprings
-    , jabiru
     ]
   , darwin2BrisbaneViaCairns
   ] @.
@@ -139,7 +137,7 @@ routes ::
   [(Route, String)]
 routes =
   [
-    (strzeleckiRoute, "Brisbane, Charleville, Strzelecki Track, Innamincka, Flinders Ranges, Port Augusta, Nullabor, Eucla, Norseman, Esperance, Ravensthorpe, Hyden (Wave Rock), Kondinin, Wickepin, Bunburry, Busselton")
+    (boreTrackRoute, "Brisbane, Charleville, Cordilo Road, Innamincka, Bore Track (alt to Strzelecki), Lyndhurst, Oodnadatta, Alice Springs, Jabiru, Darwin, McArthur, Mount Isa, Rockhampton, Hervey Bay, Brisbane")
   , (darwinRoute    , "Brisbane, Birdsville, Purni Bore, Oodnadatta, Alice Springs, Jabiru, Darwin, McArthur, Cairns, Townsville, Hervey Bay, Brisbane")
   ]
 
@@ -369,6 +367,16 @@ fortyMileScrub ::
 fortyMileScrub =
   -18.10837 |. 144.826121
 
+mountIsa :: 
+  Coord
+mountIsa =
+  -20.724548 |. 139.494714
+
+rockhampton ::
+  Coord
+rockhampton =
+  -23.322159 |. 150.512252
+
 greatCentralRoad ::
   [Coord]
 greatCentralRoad =
@@ -384,5 +392,17 @@ darwin2BrisbaneViaCairns =
   , cairns
   , townsville
   , herveyBay
+  , brisbaneBegin
+  ]
+
+darwin2BrisbaneViaRockhampton ::
+  [Coord]
+darwin2BrisbaneViaRockhampton =
+  [
+    darwin
+  , jabiru
+  , mcarthur
+  , mountIsa
+  , rockhampton
   , brisbaneBegin
   ]
