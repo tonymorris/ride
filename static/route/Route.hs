@@ -95,47 +95,43 @@ Route c z ~> Config uri loc zoom centre =
       z' = maybe [] (\(zz, Coord lat lon) -> concat ["&", zoom, "=", show zz, "&", centre, "=", show lat, ",", show lon]) z      
   in concat [uri, "?", locs, z']
 
-strzelecki ::
+strzeleckiRoute ::
   Route  
-strzelecki =
+strzeleckiRoute =
+  concat
   [
-    brisbaneBegin
-  , charleville
-  , cordilloRoadNorth
-  , innamincka
-  , boreTrackNorth
-  , blinman
-  , norseman
-  , esperance
-  , ravensthorpe
-  , hyden
-  , kondinin
-  , wickepin
-  , bunburry
-  , busselton
+    [
+      brisbaneBegin
+    , charleville
+    , cordilloRoadNorth
+    , innamincka
+    , boreTrackNorth
+    , boreTrackSouth
+    , oodnadatta
+    , aliceSprings
+    , jabiru
+    ]
+  , darwin2Brisbane
   ] @.
   (Z5, lambert)
 
 darwinRoute ::
   Route
 darwinRoute =
+  concat
   [
-    brisbaneBegin
-  , charleville
-  , birdsville
-  , poepellCorner
-  , purniBore
-  , dalhousie
-  , oodnadatta
-  , aliceSprings
-  , jabiru
-  , darwin
-  , mcarthur
-  , fortyMileScrub
-  , cairns
-  , townsville
-  , herveyBay
-  , brisbaneBegin
+    [
+      brisbaneBegin
+    , charleville
+    , birdsville
+    , poepellCorner
+    , purniBore
+    , dalhousie
+    , oodnadatta
+    , aliceSprings
+    , jabiru
+    ]
+  , darwin2Brisbane
   ] @.
   (Z5, lambert)
 
@@ -143,7 +139,7 @@ routes ::
   [(Route, String)]
 routes =
   [
-    (strzelecki     , "Brisbane, Charleville, Strzelecki Track, Innamincka, Flinders Ranges, Port Augusta, Nullabor, Eucla, Norseman, Esperance, Ravensthorpe, Hyden (Wave Rock), Kondinin, Wickepin, Bunburry, Busselton")
+    (strzeleckiRoute, "Brisbane, Charleville, Strzelecki Track, Innamincka, Flinders Ranges, Port Augusta, Nullabor, Eucla, Norseman, Esperance, Ravensthorpe, Hyden (Wave Rock), Kondinin, Wickepin, Bunburry, Busselton")
   , (darwinRoute    , "Brisbane, Birdsville, Purni Bore, Oodnadatta, Alice Springs, Jabiru, Darwin, McArthur, Cairns, Townsville, Hervey Bay, Brisbane")
   ]
 
@@ -377,3 +373,16 @@ greatCentralRoad ::
   [Coord]
 greatCentralRoad =
   [dockerRiver, laverton]
+
+darwin2Brisbane ::
+  [Coord]
+darwin2Brisbane =
+  [
+    darwin
+  , mcarthur
+  , fortyMileScrub
+  , cairns
+  , townsville
+  , herveyBay
+  , brisbaneBegin
+  ]
