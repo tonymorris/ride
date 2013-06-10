@@ -54,10 +54,10 @@ data Route =
     [Coord]
     (Maybe (Zoom, Coord))   -- zoom & centre
 
-route ::
+mkRoute ::
   [Coord]
   -> Route
-route c =
+mkRoute c =
   Route c Nothing
 
 (@.) ::
@@ -128,10 +128,68 @@ darwinRoute =
     , dalhousie
     , oodnadatta
     , aliceSprings
+    , darwin
     ]
-  , darwin2BrisbaneViaCairns
+  , savannahKatherine2Cairns
+  , [
+      townsville
+    , herveyBay
+    , brisbaneBegin
+    ]
   ] @.
   (Z5, lambert)
+
+route ::
+  Route
+route =
+  let brisbane2Oodnadatta =
+        [
+          brisbaneBegin
+        , charleville
+        , birdsville
+        , poepellCorner
+        , purniBore
+        , dalhousie
+        , oodnadatta
+        ]
+      oodnadatta2Darwin =
+        [
+          aliceSprings
+        , jabiru
+        , darwin
+        ]
+      darwin2Cairns =
+        [
+          katherine
+        , matarankaFalls
+        , -14.724925 |. 134.501689
+        , battenCreek
+        , -16.143237 |. 136.086945
+        , borroloola
+        , -17.215699 |. 137.938498 -- wollogorang
+        , -17.936602 |. 138.83096 -- doomadgee
+        , burketown
+        , -18.229718 |. 139.893204
+        , -18.686253 |. 140.514618
+        , -18.960783 |. 140.541453 -- thorntonia
+        , -19.476222 |. 140.930382 -- canobie
+        , -19.926373 |. 141.072968
+        , cairns
+        ]
+      cairns2Brisbane =
+        [
+          townsville
+        , herveyBay
+        , brisbaneBegin
+        ]
+  in concat
+       [
+         brisbane2Oodnadatta
+       , oodnadatta2Darwin
+       , darwin2Cairns
+       , cairns2Brisbane
+       ] @.
+      (Z5, longreach)
 
 routes ::
   [(Route, String)]
@@ -139,6 +197,7 @@ routes =
   [
     (boreTrackRoute, "Brisbane, Charleville, Cordilo Road, Innamincka, Bore Track (alt to Strzelecki), Lyndhurst, Oodnadatta, Alice Springs, Jabiru, Darwin, McArthur, Mount Isa, Rockhampton, Hervey Bay, Brisbane")
   , (darwinRoute    , "Brisbane, Birdsville, Purni Bore, Oodnadatta, Alice Springs, Jabiru, Darwin, McArthur, Cairns, Townsville, Hervey Bay, Brisbane")
+  , (route          , "")
   ]
 
 main ::
@@ -377,6 +436,46 @@ rockhampton ::
 rockhampton =
   -23.322159 |. 150.512252
 
+katherine ::
+  Coord
+katherine =
+  -14.463563 |. 132.260835
+
+ngukurr ::
+  Coord
+ngukurr =
+  -14.739442 |. 134.733016
+
+burketown ::
+  Coord
+burketown =
+  -17.741084 |. 139.547989
+
+croydon ::
+  Coord
+croydon =
+  -18.203996 |.142.244661
+
+longreach ::
+  Coord
+longreach =
+  -23.437537 |. 144.24207
+
+matarankaFalls ::
+  Coord
+matarankaFalls =
+  -14.955161 |. 133.21806
+
+battenCreek ::
+  Coord
+battenCreek =
+  -16.30139 |. 135.70722
+
+borroloola ::
+  Coord
+borroloola =
+  -16.088083 |. 136.305138
+
 greatCentralRoad ::
   [Coord]
 greatCentralRoad =
@@ -406,3 +505,21 @@ darwin2BrisbaneViaRockhampton =
   , rockhampton
   , brisbaneBegin
   ]
+
+savannahKatherine2Cairns ::
+  [Coord]
+savannahKatherine2Cairns =
+  [
+    katherine
+  , ngukurr
+  , burketown
+  , croydon
+  , cairns
+  ]
+
+-- -16.04338,142.38641 (dunbar)
+-- -16.062393,143.032243
+-- -15.971685,143.354541
+-- -16.476749,143.599502 (gamboola)
+-- -16.685657,144.652272 (nychum)
+-- -16.925583,145.037897 (thornborough)
