@@ -11,7 +11,7 @@ tags: Route Planning, Route Proposal
 
 [↳Click here to view this route on the Open Source Routing Machine↲](http://osrm.at/3FG).
 
-[![Brisbane to Brisbane via Oodnadatta, Darwin, Cairns (9618km)](/images/routes/route-3.png "Brisbane to Brisbane via Darwin, Cairns (9618km)")](http://osrm.at/3xr)
+[![Brisbane to Brisbane via Oodnadatta, Darwin, Cairns (9618km)](/images/routes/route-3.png "Brisbane to Brisbane via Darwin, Cairns (9618km)")](http://osrm.at/3FG)
 
 * Brisbane
 * Charleville
