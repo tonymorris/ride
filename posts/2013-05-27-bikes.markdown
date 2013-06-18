@@ -7,40 +7,42 @@ title: Bikes
 tags: Bikes
 ---
 
--------------------------------------------------------------------------------------------------------------------
- Manufacturer   Year   Model           Engine           Capacity   Dry Weight   Wet Weight   Fuel Capacity   Power
--------------- ------ --------------- ---------------- ---------- ------------ ------------ --------------- -------
-Husqvarna      2009   TE510           1cyl DOHC        501cc      112.0kg                   9.2L            59.0hp
+-----------------------------------------------------------------------------------------------------------------------------------
+ Manufacturer   Year   Model            Engine           Capacity   Dry Weight   Wet Weight   Fuel Capacity   Power    Seat Height
+-------------- ------ ---------------- ---------------- ---------- ------------ ------------ --------------- ------- --------------
+Husqvarna      2009   TE510            1cyl DOHC        501cc      112.0kg                   9.2L            59.0hp   963mm
 
-Kawasaki       2012   KLR650          1cyl DOHC        651cc      196.0kg                   23.1L           42.1hp
+Kawasaki       2012   KLR650           1cyl DOHC        651cc      196.0kg                   23.1L           42.1hp   889mm
 
-Honda          2012   XR650L          1cyl SOHC        644cc      157.0kg                   10.6L           43.0hp
+Honda          2012   XR650L           1cyl SOHC        644cc      157.0kg                   10.6L           43.0hp   934mm
 
-Suzuki         2012   DR650           1cyl SOHC        644cc      147.0kg                   13.0L           43.0hp
+Suzuki         2012   DR650            1cyl SOHC        644cc      147.0kg                   13.0L           43.0hp   885mm
 
-Suzuki         2006   DL650           2cyl 90deg       645cc      189.0kg                   22.0L           66.6hp
+Suzuki         2006   DL650            2cyl 90deg       645cc      189.0kg                   22.0L           66.6hp   820mm
 
-Suzuki         2012   DL650           2cyl 90deg       645cc                   214.0kg      20.0L           68.0hp
+Suzuki         2012   DL650            2cyl 90deg       645cc                   214.0kg      20.0L           68.0hp   835mm
 
-Yamaha         2012   XT660Z          1cyl SOHC        660cc      206.0kg                   23.0L           46.9hp
+Yamaha         2012   XT660Z           1cyl SOHC        660cc      206.0kg                   23.0L           46.9hp   895mm
 
-BMW            2012   G650GS          1cyl DOHC        652cc      175.0kg                   14.0L           48.0hp
+BMW            2012   G650GS           1cyl DOHC        652cc      175.0kg                   14.0L           48.0hp   780mm
 
-KTM            2012   690 Enduro R    1cyl             654cc      142.0kg                   12.0L           65.7hp
+KTM            2012   690 Enduro R     1cyl             654cc      142.0kg                   12.0L           65.7hp   935mm
 
-Husqvarna      2012   TE630           1cyl DOHC        600cc      149.0kg                   12.0L
+Husqvarna      2012   TE630            1cyl DOHC        600cc      149.0kg                   12.0L                    930mm
 
-BMW            2010   F800GS          2cyl 0deg DOHC   798cc      178.0kg      209kg        16.0L           85.0hp
+BMW            2010   F800GS           2cyl 0deg DOHC   798cc      178.0kg      209kg        16.0L           85.0hp   880mm
 
-Triumph        2012   Tiger 800       3cyl 0deg DOHC   799cc      210.0kg                   19.0L           94.0hp
+Triumph        2012   Tiger 800        3cyl 0deg DOHC   799cc      210.0kg                   19.0L           94.0hp   810mm
 
-KTM            2012   990 Adventure R 2cyl 75deg       999cc      207.0kg                   19.5L           113.3hp
+KTM            2012   990 Adventure R  2cyl 75deg       999cc      207.0kg                   19.5L           113.3hp  880mm
 
-BMW            2012   R1200GS         2cyl 180deg DOHC 1170cc     223.0kg                   33.0L           110.0hp
+BMW            2012   R1200GS          2cyl 180deg DOHC 1170cc     223.0kg                   33.0L           110.0hp  850mm
 
-Yamaha         2012   XT1200Z         2cyl 0deg DOHC   1199cc     222.7kg                   22.7L           108.0hp
+Yamaha         2012   XT1200Z          2cyl 0deg DOHC   1199cc     222.7kg                   22.7L           108.0hp  845mm
 
-Triumph        2012   Explorer        3cyl 0deg DOHC   1215cc     259.0kg                   20.0L           137.0hp
+Triumph        2012   Explorer         3cyl 0deg DOHC   1215cc     259.0kg                   20.0L           137.0hp  841mm
+
+KTM            2013   1190 Adventure R 2cyl 75deg       1195cc     217.0kg                   23.0L           147.51hp 890mm
 
 
 ----
