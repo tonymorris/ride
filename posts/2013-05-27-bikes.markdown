@@ -40,7 +40,7 @@ BMW            2012   R1200GS          2cyl 180deg DOHC 1170cc     223.0kg      
 
 Yamaha         2012   XT1200Z          2cyl 0deg DOHC   1199cc     222.7kg                   22.7L           108.0hp  845mm
 
-Triumph        2012   Explorer         3cyl 0deg DOHC   1215cc     259.0kg                   20.0L           137.0hp  841mm
+Triumph        2012   Explorer         3cyl 0deg DOHC   1215cc                  259.0kg      20.0L           137.0hp  841mm
 
 KTM            2013   1190 Adventure R 2cyl 75deg       1195cc     217.0kg                   23.0L           147.51hp 890mm
 
