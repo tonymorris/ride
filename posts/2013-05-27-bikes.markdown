@@ -44,6 +44,8 @@ Triumph        2012   Explorer         3cyl 0deg DOHC   1215cc                  
 
 KTM            2013   1190 Adventure R 2cyl 75deg       1195cc     217.0kg                   23.0L           147.51hp 890mm
 
+Ducati         2013   Multistrada 1200 2cyl 90deg       1198.4cc   196.0kg                   20.0L           150.00hp 850mm
+
 
 ----
 
