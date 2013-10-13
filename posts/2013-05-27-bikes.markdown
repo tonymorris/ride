@@ -34,6 +34,8 @@ BMW            2010   F800GS           2cyl 0deg DOHC   798cc      178.0kg      
 
 Triumph        2012   Tiger 800        3cyl 0deg DOHC   799cc      210.0kg                   19.0L           94.0hp   810mm
 
+Triumph        2013   Tiger 800 XC     3cyl 0deg DOHC   799cc                   215.0kg      19.0L           94.0hp   845mm
+
 KTM            2012   990 Adventure R  2cyl 75deg       999cc      207.0kg                   19.5L           113.3hp  880mm
 
 BMW            2012   R1200GS          2cyl 180deg DOHC 1170cc     223.0kg                   33.0L           110.0hp  850mm
