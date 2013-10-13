@@ -32,7 +32,7 @@ Husqvarna      2012   TE630            1cyl DOHC        600cc      149.0kg      
 
 BMW            2010   F800GS           2cyl 0deg DOHC   798cc      178.0kg      209kg        16.0L           85.0hp   880mm
 
-Triumph        2012   Tiger 800        3cyl 0deg DOHC   799cc      210.0kg                   19.0L           94.0hp   810mm
+Triumph        2012   Tiger 800 XC     3cyl 0deg DOHC   799cc                   215.0kg      19.0L           94.0hp   810mm
 
 KTM            2012   990 Adventure R  2cyl 75deg       999cc      207.0kg                   19.5L           113.3hp  880mm
 
