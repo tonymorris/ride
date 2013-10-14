@@ -5,4 +5,6 @@ site
 *.o
 .idea/ant.xml
 .idea/workspace.xml
+/.cabal-sandbox/
+/cabal.sandbox.config
 
