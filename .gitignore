@@ -7,4 +7,5 @@ site
 .idea/workspace.xml
 /.cabal-sandbox/
 /cabal.sandbox.config
+/dist
 
