@@ -1,9 +1,11 @@
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend, mconcat)
+import           Data.Monoid(mappend, mconcat)
 import           Hakyll
 import           Data.Maybe(fromMaybe)
 import qualified Data.Map as M
 import           Text.Pandoc(WriterOptions, HTMLMathMethod(..), writerHTMLMathMethod)
+import           System.FilePath(combine, dropExtension)
+import           Control.Arrow(second)
 
 main ::
   IO ()
@@ -27,7 +29,7 @@ main =
             >>= relativizeUrls
 
     match "posts/*" $ do
-        route $ setExtension "html"
+        route $ customRoute fileToDirectory
         compile $ pandocCompilerWith defaultHakyllReaderOptions pandocOptions
             >>= saveSnapshot "content"
             -- >>= return . fmap demoteHeaders
@@ -168,3 +170,10 @@ configuration ::
   Configuration
 configuration =
   defaultConfiguration { deployCommand = "cp -r _site/* ../" }
+
+fileToDirectory ::
+  Identifier
+  -> FilePath
+fileToDirectory =
+  flip combine "index.html" . dropExtension . uncurry (++) . second (drop 11 {- yyyy-mm-dd- -}) . splitAt 6 {- "posts/" -} . toFilePath
+
