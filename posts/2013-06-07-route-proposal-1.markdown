@@ -17,7 +17,7 @@ tags: Route Planning, Route Proposal
 * Charleville
 * Strzelecki Track
 * Flinders Ranges
-* Port Augustaa
+* Port Augusta
 * Nullabor
 * Eucla
 * Norseman
