@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.14.1" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <name>Cruise P&amp;O Pacific Sun 04/10/2008 to 11/10/2008</name>
+    <desc>Brisbane - Noumea - Lifou - Port Vila - Brisbane. Lost Tracking in the final 48 hours due to storage size limits</desc>
+    <author>
+      <name>Tony Morris</name>
+
+      <email id="tmorris" domain="tmorris.net"/>
+      <link href="http://tmorris.net">
+        <text>Tony Morris</text>
+        <type>HTTP</type>
+      </link>
+    </author>
+    <copyright author="Tony Morris">
+      <year>2008</year>
+
+      <license>http://en.wikipedia.org/wiki/Beerware</license>
+    </copyright>
+    <bounds maxlat="-17.6911202" maxlon="168.3223193" minlat="-27.4481840" minlon="152.5535520"/>
+  </metadata>
+
+  <wpt lat="-22.2711704" lon="166.4416643">
+    <ele>8.2969971</ele>
+    <name>Le Square Orly</name>
+    <cmt>City Centre Statue</cmt>
+    <desc>City Centre Statue</desc>
+    <sym>City (Small)</sym>
+  </wpt>
+  
+  <trk>
+    <name>Cruise October 2008</name>
+    <trkseg>
+      <trkpt lat="-27.4410930" lon="153.0674245">
+        <ele>19.3637695</ele>
+        <time>2008-10-04T02:51:15Z</time>
+      </trkpt>
+      <trkpt lat="-27.4410837" lon="153.0674506">
+        <ele>24.1702881</ele>
+        <time>2008-10-04T02:51:18Z</time>
+      </trkpt>
+      <trkpt lat="-27.4410012" lon="153.0675328">
+        <ele>26.5736084</ele>
+        <time>2008-10-04T02:51:29Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+  
+</gpx>
