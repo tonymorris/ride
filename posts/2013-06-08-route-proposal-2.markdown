@@ -2,7 +2,7 @@
 comments: true
 date: 2013-06-08 20:00:00
 layout: post
-slug: test
+slug: route-proposal-2
 title: Route Proposal 2
 tags: Route Planning, Route Proposal
 ---
