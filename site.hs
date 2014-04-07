@@ -169,7 +169,7 @@ pandocOptions =
 configuration ::
   Configuration
 configuration =
-  defaultConfiguration { deployCommand = "cp -r _site/* ../" }
+  defaultConfiguration
 
 fileToDirectory ::
   Identifier
