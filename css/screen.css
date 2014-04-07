@@ -53,6 +53,19 @@ div#tags {
   word-spacing: 12px;
 }
 
+div#routelinks {
+  text-align: right;
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+div#routelinks a {
+  color: white;
+}
+
 h1 {
   color: rgb(140, 140, 140);
   border-bottom: 2px solid rgb(150, 150, 250);
