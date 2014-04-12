@@ -330,11 +330,48 @@ marla =
   do x <- (-27.305092) ..#.. 133.62192
      return ("City (Small)" <@> "Marla" .<.> x)
 
+darwin ::
+  Maybe Waypoint
+darwin =
+  do x <- (-12.454617) ..#.. 130.839195
+     return ("City (Large)" <@> "Darwin" .<.> x)
+
+jabiru ::
+  Maybe Waypoint
+jabiru =
+  do x <- (-12.668414) ..#.. 132.832214
+     return ("City (Small)" <@> "Jabiru" .<.> x)
+
+normanton ::
+  Maybe Waypoint
+normanton =
+  do x <- (-17.673383) ..#.. 141.075089
+     return ("City (Small)" <@> "Normanton" .<.> x)
+
+minnamoolka ::
+  Maybe Waypoint
+minnamoolka =
+  do x <- (-18.145526) ..#.. 144.779863
+     return ("City (Small)" <@> "Minnamoolka" .<.> x)
+
+chartersTowers ::
+  Maybe Waypoint
+chartersTowers =
+  do x <- (-20.066977) ..#.. 146.259513
+     return ("City (Medium)" <@> "Charters Towers" .<.> x)
+
+dayboro ::
+  Maybe Waypoint
+dayboro =
+  do x <- (-27.197121) ..#.. 152.822739
+     return ("City (Small)" <@> "Dayboro" .<.> x)
+
 trk ::
   Maybe Track
 trk =
   let header = mkTrackHeader' "Trans-Australia ride of 2014" "Trans-Australia ride of 2014" "Trans-Australia ride of 2014"
   in (trackHeader .~ header) <$>
+     dayboro |.|
      bourke |.|
      warregoHotel |.|
      currawinyaNP |.|
@@ -356,9 +393,14 @@ trk =
      mountEba |.|
      (-30.177584) <.?> 135.648081 |.|
      oldStuartHighwayStuartHighwayIntersection |.|
-     cooberPedy .|
-     marla
-
+     cooberPedy |.|
+     marla |.|
+     darwin |.|
+     jabiru |.|
+     normanton |.|
+     minnamoolka |.|
+     chartersTowers .|
+     dayboro
 
 plan ::
   Maybe Plan
