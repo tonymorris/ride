@@ -342,6 +342,12 @@ jabiru =
   do x <- (-12.668414) ..#.. 132.832214
      return ("City (Small)" <@> "Jabiru" .<.> x)
 
+borroloola ::
+  Maybe Waypoint
+borroloola =
+  do x <- (-16.088042) ..#.. 136.30514
+     return ("City (Small)" <@> "Borroloola" .<.> x)
+
 normanton ::
   Maybe Waypoint
 normanton =
@@ -397,6 +403,7 @@ trk =
      marla |.|
      darwin |.|
      jabiru |.|
+     borroloola |.|
      normanton |.|
      minnamoolka |.|
      chartersTowers .|
