@@ -10,7 +10,7 @@ import           Control.Monad.Error.Class
 import           Control.Arrow(second)
 import           Control.Applicative((<$>))
 import           Control.Lens((.~))
-import           Data.Geo.Route(Waypoint, Track, Plan, mkPlan', mkAuthor', email, link, copyright', gpx, osrm, trackHeader, mkTrackHeader', (<@>), (.<.>), (<~>), (<.?>), (|.|), (.|))
+import           Data.Geo.Route(Waypoint, Track, Plan, mkPlan', mkAuthor', mkEmail, mkLink, mkCopyright', gpx, osrm, trackHeader, mkTrackHeader', (<@>), (.<.>), (<~>), (<.?>), (|.|), (.|))
 import           Data.Geo.Coordinate((..#..))
 import Data.String
 
@@ -324,11 +324,35 @@ cooberPedy =
   do x <- (-29.013368) ..#.. 134.753616
      return ("City (Medium)" <@> "Coober Pedy" .<.> x)
 
-marla ::
+pukatjaKenmoreRdTurn ::
   Maybe Waypoint
-marla =
-  do x <- (-27.305092) ..#.. 133.62192
-     return ("City (Small)" <@> "Marla" .<.> x)
+pukatjaKenmoreRdTurn =
+  do x <- (-26.793238) ..#.. 133.326859
+     return ("Pin, Green" <@> "Pukatja to Kenmore Rd Turn" <~> "Pukatja to Kenmore Rd Turn" .<.> x)
+
+mulgaParkPukatjaRdTurn ::
+  Maybe Waypoint
+mulgaParkPukatjaRdTurn =
+  do x <- (-26.273114) ..#.. 132.13978
+     return ("Pin, Green" <@> "Mulga Park - Pukatja Rd Turn" .<.> x)
+
+gunbarrelHighwayTurn ::
+  Maybe Waypoint
+gunbarrelHighwayTurn =
+  do x <- (-25.976711) ..#.. 132.260147
+     return ("Pin, Green" <@> "Mulga Park - Pukatja Rd Turn" .<.> x)
+
+mulgaParkRd ::
+  Maybe Waypoint
+mulgaParkRd =
+  do x <- (-25.909042) ..#.. 131.668527
+     return ("Pin, Green" <@> "Mulga Park Rd" .<.> x)
+
+mountConner ::
+  Maybe Waypoint
+mountConner =
+  do x <- (-25.495612) ..#.. 131.899259
+     return ("Scenic Area" <@> "Mount Conner" .<.> x)
 
 darwin ::
   Maybe Waypoint
@@ -400,7 +424,11 @@ trk =
      (-30.177584) <.?> 135.648081 |.|
      oldStuartHighwayStuartHighwayIntersection |.|
      cooberPedy |.|
-     marla |.|
+     pukatjaKenmoreRdTurn |.|
+     mulgaParkPukatjaRdTurn |.|
+     gunbarrelHighwayTurn |.|
+     mulgaParkRd |.|
+     mountConner |.|
      darwin |.|
      jabiru |.|
      borroloola |.|
@@ -420,19 +448,19 @@ plan =
         mkAuthor'
           "Tony Morris"
           (
-            email
+            mkEmail
               "tonymorris"
               "gmail.com"
           )
           (
-            link
+            mkLink
               "http://tmorris.net/"
               "Tony Morris"
               "HTTP"
           )
       )
       (
-        copyright'
+        mkCopyright'
           "Tony Morris"
           "2014"
           "http://en.wikipedia.org/wiki/Beerware"
