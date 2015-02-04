@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Ride 2014 Planning - Route Planning</title>
+  <link rel="stylesheet" type="text/css" href="../../css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="../../css/syntax.css" />
+  <link rel="alternate" type="application/atom+xml" href="http://ride.tmorris.net/atom.xml" title="Atom feed" />
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript" src="https://raw.github.com/Mathapedia/LaTeX2HTML5/master/latex2html5.min.js"></script>
+</head>
+<body>
+<div id="title">
+  Ride 2014 Planning
+  <div id="subtitle">
+    Planning for the Trans-Australia Ride of 2014
+  </div>
+  <div id="routelinks">
+    <div><a href="../../ride.gpx">Download raw GPX file (ride.gpx)</a></div>
+    <div><a href="http://latlon.org/show_gpx?gpx_url=http://ride.tmorris.net/ride.gpx">Display GPX on latlon.org</a></div>
+    <div><a href="http://map.project-osrm.org/?loc=-27.197121,152.822739&amp;loc=-30.088869,145.937757&amp;loc=-29.752314,145.425183&amp;loc=-28.868504,144.468484&amp;loc=-28.291734,143.861728&amp;loc=-27.991730,143.819636&amp;loc=-27.707610,140.739250&amp;loc=-28.089430,140.567060&amp;loc=-28.090400,140.560700&amp;loc=-28.575402,140.290149&amp;loc=-28.595917,140.275617&amp;loc=-28.564427,140.186559&amp;loc=-30.287457,138.349700&amp;loc=-29.593370,137.380702&amp;loc=-30.482769,136.891974&amp;loc=-30.564061,136.895607&amp;loc=-30.797447,136.914414&amp;loc=-30.427641,136.399427&amp;loc=-29.917052,136.187145&amp;loc=-30.180817,135.664534&amp;loc=-30.177584,135.648081&amp;loc=-29.915912,135.154241&amp;loc=-29.013368,134.753616&amp;loc=-26.793238,133.326859&amp;loc=-26.273114,132.139780&amp;loc=-25.976711,132.260147&amp;loc=-25.909042,131.668527&amp;loc=-25.495612,131.899259&amp;loc=-12.454617,130.839195&amp;loc=-12.668414,132.832214&amp;loc=-16.088042,136.305140&amp;loc=-17.673383,141.075089&amp;loc=-18.145526,144.779863&amp;loc=-20.066977,146.259513&amp;loc=-27.197121,152.822739">View routing on OSRM</a></div>
+  </div>
+</div>
+<div id="header">
+  <div id="navigation">
+    <a href="../../index.html">Home</a>
+    <a href="../../posts.html">All Posts</a>
+    <a href="../../contact.html">Contact</a>
+    <a href="../../atom.xml"><img src="../../images/feed-icon-14x14.png" alt="feed" /></a>
+  </div>
+</div>
+<h1>Route Planning</h1>
+<div class="info">Posted on June  7, 2013, in <a href="../../tags/Route%20Planning.html">Route Planning</a></div>
+
+<p>In <a href="https://bitbucket.org/dibblego/ride">the repository</a>, you will find <a href="https://bitbucket.org/dibblego/ride/src/master/static/route/Route.hs">a Haskell script</a> for generating a URL containing waypoints. The URL points to <a href="http://map.project-osrm.org/">the Open Source Routing Machine (OSRM)</a>, which then produces a route that visits each waypoint.</p>
+<p>There is a problem in that some of the <a href="http://osm.org">OpenStreetMap (OSM)</a> tracks are not marked as having vehicular access. This means that OSRM will not use them for routing. This is especially prevalent in western Queensland and the Simpson desert. Therefore, although I have created many route proposals, I am waiting for the OSM map to update on OSRM so that it routes along vehicle tracks.</p>
+<p>If you would like to propose a route, please use <a href="http://map.project-osrm.org/">the OSRM website</a>, generate a URL and submit it to <a href="http://groups.google.com/group/au-ride-2014">the mailing list</a>. You can also do this to modify an existing route proposal.</p>
+
+
+<hr />
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'ride2014planning';
+  var discus_identifier = '/posts/route-planning/index.html';
+  var disqus_url = 'http://ride.tmorris.net/posts/route-planning/index.html';
+  var discus_title = 'Route Planning';
+  (function () {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript><p>The comments use <a href="http://disqus.com/?ref_noscript">Disqus</a>,
+  which requires Javascript.</p></noscript>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41231686-1']);
+  _gaq.push(['_trackPageview']);
+  (function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
+</html>

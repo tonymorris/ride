@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Ride 2014 Planning — Posts tagged Bikes</title>
+    <link href="http://ride.tmorris.net/tags/Bikes.xml" rel="self" />
+    <link href="http://ride.tmorris.net" />
+    <id>http://ride.tmorris.net/tags/Bikes.xml</id>
+    <author>
+        <name>Tony Morris</name>
+        <email>ride@tmorris.net</email>
+    </author>
+    <updated>2013-05-27T20:00:00Z</updated>
+    <entry>
+    <title>Bikes</title>
+    <link href="http://ride.tmorris.net/posts/bikes/index.html" />
+    <id>http://ride.tmorris.net/posts/bikes/index.html</id>
+    <published>2013-05-27T20:00:00Z</published>
+    <updated>2013-05-27T20:00:00Z</updated>
+    <summary type="html"><![CDATA[<table>
+<col width="11%" />
+<col width="5%" />
+<col width="12%" />
+<col width="12%" />
+<col width="8%" />
+<col width="9%" />
+<col width="9%" />
+<col width="12%" />
+<col width="6%" />
+<col width="10%" />
+<thead>
+<tr class="header">
+<th align="center">Manufacturer</th>
+<th align="center">Year</th>
+<th align="center">Model</th>
+<th align="center">Engine</th>
+<th align="center">Capacity</th>
+<th align="center">Dry Weight</th>
+<th align="center">Wet Weight</th>
+<th align="center">Fuel Capacity</th>
+<th align="center">Power</th>
+<th align="center">Seat Height</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Husqvarna</td>
+<td align="center">2009</td>
+<td align="center">TE510</td>
+<td align="center">1cyl DOHC</td>
+<td align="center">501cc</td>
+<td align="center">112.0kg</td>
+<td align="center"></td>
+<td align="center">9.2L</td>
+<td align="center">59.0hp</td>
+<td align="center">963mm</td>
+</tr>
+<tr class="even">
+<td align="center">Kawasaki</td>
+<td align="center">2012</td>
+<td align="center">KLR650</td>
+<td align="center">1cyl DOHC</td>
+<td align="center">651cc</td>
+<td align="center">196.0kg</td>
+<td align="center"></td>
+<td align="center">23.1L</td>
+<td align="center">42.1hp</td>
+<td align="center">889mm</td>
+</tr>
+<tr class="odd">
+<td align="center">Honda</td>
+<td align="center">2012</td>
+<td align="center">XR650L</td>
+<td align="center">1cyl SOHC</td>
+<td align="center">644cc</td>
+<td align="center">157.0kg</td>
+<td align="center"></td>
+<td align="center">10.6L</td>
+<td align="center">43.0hp</td>
+<td align="center">934mm</td>
+</tr>
+<tr class="even">
+<td align="center">Suzuki</td>
+<td align="center">2012</td>
+<td align="center">DR650</td>
+<td align="center">1cyl SOHC</td>
+<td align="center">644cc</td>
+<td align="center">147.0kg</td>
+<td align="center"></td>
+<td align="center">13.0L</td>
+<td align="center">43.0hp</td>
+<td align="center">885mm</td>
+</tr>
+<tr class="odd">
+<td align="center">Suzuki</td>
+<td align="center">2006</td>
+<td align="center">DL650</td>
+<td align="center">2cyl 90deg</td>
+<td align="center">645cc</td>
+<td align="center">189.0kg</td>
+<td align="center"></td>
+<td align="center">22.0L</td>
+<td align="center">66.6hp</td>
+<td align="center">820mm</td>
+</tr>
+<tr class="even">
+<td align="center">Suzuki</td>
+<td align="center">2012</td>
+<td align="center">DL650</td>
+<td align="center">2cyl 90deg</td>
+<td align="center">645cc</td>
+<td align="center"></td>
+<td align="center">214.0kg</td>
+<td align="center">20.0L</td>
+<td align="center">68.0hp</td>
+<td align="center">835mm</td>
+</tr>
+<tr class="odd">
+<td align="center">Yamaha</td>
+<td align="center">2012</td>
+<td align="center">XT660Z</td>
+<td align="center">1cyl SOHC</td>
+<td align="center">660cc</td>
+<td align="center">206.0kg</td>
+<td align="center"></td>
+<td align="center">23.0L</td>
+<td align="center">46.9hp</td>
+<td align="center">895mm</td>
+</tr>
+<tr class="even">
+<td align="center">BMW</td>
+<td align="center">2012</td>
+<td align="center">G650GS</td>
+<td align="center">1cyl DOHC</td>
+<td align="center">652cc</td>
+<td align="center">175.0kg</td>
+<td align="center"></td>
+<td align="center">14.0L</td>
+<td align="center">48.0hp</td>
+<td align="center">780mm</td>
+</tr>
+<tr class="odd">
+<td align="center">KTM</td>
+<td align="center">2012</td>
+<td align="center">690 Enduro R</td>
+<td align="center">1cyl</td>
+<td align="center">654cc</td>
+<td align="center">142.0kg</td>
+<td align="center"></td>
+<td align="center">12.0L</td>
+<td align="center">65.7hp</td>
+<td align="center">935mm</td>
+</tr>
+<tr class="even">
+<td align="center">Husqvarna</td>
+<td align="center">2012</td>
+<td align="center">TE630</td>
+<td align="center">1cyl DOHC</td>
+<td align="center">600cc</td>
+<td align="center">149.0kg</td>
+<td align="center"></td>
+<td align="center">12.0L</td>
+<td align="center"></td>
+<td align="center">930mm</td>
+</tr>
+<tr class="odd">
+<td align="center">BMW</td>
+<td align="center">2010</td>
+<td align="center">F800GS</td>
+<td align="center">2cyl 0deg DOHC</td>
+<td align="center">798cc</td>
+<td align="center">178.0kg</td>
+<td align="center">209kg</td>
+<td align="center">16.0L</td>
+<td align="center">85.0hp</td>
+<td align="center">880mm</td>
+</tr>
+<tr class="even">
+<td align="center">Triumph</td>
+<td align="center">2012</td>
+<td align="center">Tiger 800</td>
+<td align="center">3cyl 0deg DOHC</td>
+<td align="center">799cc</td>
+<td align="center">210.0kg</td>
+<td align="center"></td>
+<td align="center">19.0L</td>
+<td align="center">94.0hp</td>
+<td align="center">810mm</td>
+</tr>
+<tr class="odd">
+<td align="center">Triumph</td>
+<td align="center">2013</td>
+<td align="center">Tiger 800 XC</td>
+<td align="center">3cyl 0deg DOHC</td>
+<td align="center">799cc</td>
+<td align="center"></td>
+<td align="center">215.0kg</td>
+<td align="center">19.0L</td>
+<td align="center">94.0hp</td>
+<td align="center">845mm</td>
+</tr>
+<tr class="even">
+<td align="center">KTM</td>
+<td align="center">2012</td>
+<td align="center">990 Adventure R</td>
+<td align="center">2cyl 75deg</td>
+<td align="center">999cc</td>
+<td align="center">207.0kg</td>
+<td align="center"></td>
+<td align="center">19.5L</td>
+<td align="center">113.3hp</td>
+<td align="center">880mm</td>
+</tr>
+<tr class="odd">
+<td align="center">BMW</td>
+<td align="center">2012</td>
+<td align="center">R1200GS</td>
+<td align="center">2cyl 180deg DOHC</td>
+<td align="center">1170cc</td>
+<td align="center">223.0kg</td>
+<td align="center"></td>
+<td align="center">33.0L</td>
+<td align="center">110.0hp</td>
+<td align="center">850mm</td>
+</tr>
+<tr class="even">
+<td align="center">Yamaha</td>
+<td align="center">2012</td>
+<td align="center">XT1200Z</td>
+<td align="center">2cyl 0deg DOHC</td>
+<td align="center">1199cc</td>
+<td align="center">222.7kg</td>
+<td align="center"></td>
+<td align="center">22.7L</td>
+<td align="center">108.0hp</td>
+<td align="center">845mm</td>
+</tr>
+<tr class="odd">
+<td align="center">Triumph</td>
+<td align="center">2012</td>
+<td align="center">Explorer</td>
+<td align="center">3cyl 0deg DOHC</td>
+<td align="center">1215cc</td>
+<td align="center"></td>
+<td align="center">259.0kg</td>
+<td align="center">20.0L</td>
+<td align="center">137.0hp</td>
+<td align="center">841mm</td>
+</tr>
+<tr class="even">
+<td align="center">KTM</td>
+<td align="center">2013</td>
+<td align="center">1190 Adventure R</td>
+<td align="center">2cyl 75deg</td>
+<td align="center">1195cc</td>
+<td align="center">217.0kg</td>
+<td align="center"></td>
+<td align="center">23.0L</td>
+<td align="center">147.51hp</td>
+<td align="center">890mm</td>
+</tr>
+<tr class="odd">
+<td align="center">Ducati</td>
+<td align="center">2013</td>
+<td align="center">Multistrada 1200</td>
+<td align="center">2cyl 90deg</td>
+<td align="center">1198.4cc</td>
+<td align="center">196.0kg</td>
+<td align="center"></td>
+<td align="center">20.0L</td>
+<td align="center">150.00hp</td>
+<td align="center">850mm</td>
+</tr>
+</tbody>
+</table>]]></summary>
+</entry>
+
+</feed>

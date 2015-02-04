@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Ride 2014 Planning — Posts tagged Route Planning</title>
+    <link href="http://ride.tmorris.net/tags/Route%20Planning.xml" rel="self" />
+    <link href="http://ride.tmorris.net" />
+    <id>http://ride.tmorris.net/tags/Route%20Planning.xml</id>
+    <author>
+        <name>Tony Morris</name>
+        <email>ride@tmorris.net</email>
+    </author>
+    <updated>2013-06-17T20:00:00Z</updated>
+    <entry>
+    <title>Route Proposal 3</title>
+    <link href="http://ride.tmorris.net/posts/route-proposal-3/index.html" />
+    <id>http://ride.tmorris.net/posts/route-proposal-3/index.html</id>
+    <published>2013-06-17T20:00:00Z</published>
+    <updated>2013-06-17T20:00:00Z</updated>
+    <summary type="html"><![CDATA[<h5 id="brisbane-to-brisbane-via-oodnadatta-darwin-cairns-9618km">Brisbane to Brisbane via Oodnadatta, Darwin, Cairns (9618km)</h5>
+<p><a href="http://osrm.at/3FG">↳Click here to view this route on the Open Source Routing Machine↲</a>.</p>
+<p><a href="http://osrm.at/3FG"><img src="/images/routes/route-3.png" title="Brisbane to Brisbane via Oodnadatta, Darwin, Cairns (9618km)" alt="Brisbane to Brisbane via Oodnadatta, Darwin, Cairns (9618km)" /></a></p>
+<ul>
+<li>Brisbane</li>
+<li>Charleville</li>
+<li>Birdsville</li>
+<li>Purni Bore</li>
+<li>Poepell Corner</li>
+<li>Dalhousie</li>
+<li>Oodnadatta</li>
+<li>Alice Springs</li>
+<li>Jabiru</li>
+<li>Darwin</li>
+<li>Katherine</li>
+<li>Mataranka Falls</li>
+<li>Batten Creek</li>
+<li>Borroloola</li>
+<li>Burketown</li>
+<li>Croydon</li>
+<li>Cairns</li>
+<li>Townsville</li>
+<li>Hervey Bay</li>
+<li>Brisbane</li>
+</ul>]]></summary>
+</entry>
+<entry>
+    <title>Route Proposal 2</title>
+    <link href="http://ride.tmorris.net/posts/route-proposal-2/index.html" />
+    <id>http://ride.tmorris.net/posts/route-proposal-2/index.html</id>
+    <published>2013-06-08T20:00:00Z</published>
+    <updated>2013-06-08T20:00:00Z</updated>
+    <summary type="html"><![CDATA[<h5 id="brisbane-to-brisbane-via-darwin-cairns-9560km">Brisbane to Brisbane via Darwin, Cairns (9560km)</h5>
+<p><a href="http://osrm.at/3xr">↳Click here to view this route on the Open Source Routing Machine↲</a>.</p>
+<p><a href="http://osrm.at/3xr"><img src="/images/routes/route-2.png" title="Brisbane to Brisbane via Darwin, Cairns (9560km)" alt="Brisbane to Brisbane via Darwin, Cairns (9560km)" /></a></p>
+<ul>
+<li>Brisbane</li>
+<li>Birdsville</li>
+<li>Purni Bore</li>
+<li>Oodnadatta</li>
+<li>Alice Springs</li>
+<li>Jabiru</li>
+<li>Darwin</li>
+<li>McArthur</li>
+<li>Cairns</li>
+<li>Townsville</li>
+<li>Hervey Bay</li>
+<li>Brisbane</li>
+</ul>]]></summary>
+</entry>
+<entry>
+    <title>Route Proposal 1</title>
+    <link href="http://ride.tmorris.net/posts/route-proposal-1/index.html" />
+    <id>http://ride.tmorris.net/posts/route-proposal-1/index.html</id>
+    <published>2013-06-07T20:00:00Z</published>
+    <updated>2013-06-07T20:00:00Z</updated>
+    <summary type="html"><![CDATA[<h5 id="brisbane-to-busselton-5517km">Brisbane to Busselton (5517km)</h5>
+<p><a href="http://osrm.at/3vR">↳Click here to view this route on the Open Source Routing Machine↲</a>.</p>
+<p><a href="http://osrm.at/3vR"><img src="/images/routes/route-1.png" title="Brisbane to Busselton (5517km)" alt="Brisbane to Busselton (5517km)" /></a></p>
+<ul>
+<li>Brisbane</li>
+<li>Charleville</li>
+<li>Strzelecki Track</li>
+<li>Flinders Ranges</li>
+<li>Port Augusta</li>
+<li>Nullabor</li>
+<li>Eucla</li>
+<li>Norseman</li>
+<li>Esperance</li>
+<li>Ravensthorpe</li>
+<li>Wave Rock</li>
+<li>Kondinin</li>
+<li>Bunburry</li>
+<li>Busselton</li>
+</ul>]]></summary>
+</entry>
+<entry>
+    <title>Route Planning</title>
+    <link href="http://ride.tmorris.net/posts/route-planning/index.html" />
+    <id>http://ride.tmorris.net/posts/route-planning/index.html</id>
+    <published>2013-06-07T20:00:00Z</published>
+    <updated>2013-06-07T20:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>In <a href="https://bitbucket.org/dibblego/ride">the repository</a>, you will find <a href="https://bitbucket.org/dibblego/ride/src/master/static/route/Route.hs">a Haskell script</a> for generating a URL containing waypoints. The URL points to <a href="http://map.project-osrm.org/">the Open Source Routing Machine (OSRM)</a>, which then produces a route that visits each waypoint.</p>
+<p>There is a problem in that some of the <a href="http://osm.org">OpenStreetMap (OSM)</a> tracks are not marked as having vehicular access. This means that OSRM will not use them for routing. This is especially prevalent in western Queensland and the Simpson desert. Therefore, although I have created many route proposals, I am waiting for the OSM map to update on OSRM so that it routes along vehicle tracks.</p>
+<p>If you would like to propose a route, please use <a href="http://map.project-osrm.org/">the OSRM website</a>, generate a URL and submit it to <a href="http://groups.google.com/group/au-ride-2014">the mailing list</a>. You can also do this to modify an existing route proposal.</p>]]></summary>
+</entry>
+
+</feed>
